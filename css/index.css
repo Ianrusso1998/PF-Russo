@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #1D428A;
+    padding: 20px;
+}
+
+footer {
+    background-color: #C8102E;
+    padding: 100px;
+    display: flex;
+
+}
+
+.footbar .lista .lista__item {
+    display: inline-block;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0% auto;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+}
+
+.navbar .navbar__link {
+    display: inline-block;
+}
+
+.navbar .menu {
+    display: inline-block;
+
+}
+
+.navbar .menu .menu__item {
+    display: inline-block;
+    transition: background .3s;
+}
+
+.navbar .menu .menu__item:hover {
+    background-color: #C8102E;
+
+}
+
+.menu__item {
+    margin: 0px 20px;
+}
+
+
+.item{
+    color: rgb(255, 255, 255);
+}   
+
+html {
+    font-size: 130%;
+}
+
+.box {
+    background-color: #1D428A;
+    display: flex;
+    flex-direction: row;
+    width: 62.5%;
+    justify-content: center;
+    padding: 0.2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+.noticia {
+    display: inline;
+}
+
+.logo {
+    margin: 8px;
+}
+
+.logo1 {
+    background-color: #8B2231;
+    z-index: -1;
+    width: 180px;
+    border-radius: 8px;
+    margin: 2rem;
+    transition: all .3s;
+}
+
+.logo1:hover {
+    transform: scale(1.2);
+}
+
+.logo2 {
+    background-color: #5D76A9;
+    z-index: -1;
+    width: 180px;
+    border-radius: 8px;
+    margin: 2rem;
+    transition: all .3s;
+}
+
+.logo2:hover {
+    transform: scale(1.2);
+}
+
+.logo3 {
+    background-color: #542582;
+    z-index: -1;
+    width: 180px;
+    border-radius: 8px;
+    margin: 2rem;
+    transition: all .3s;
+}
+
+.logo3:hover {
+    transform: scale(1.2);
+}
+
+.logo4 {
+    background-color: #3D0079;
+    z-index: -1;
+    width: 180px;
+    border-radius: 8px;
+    margin: 2rem;
+    transition: all .3s;
+}
+
+.logo4:hover {
+    transform: scale(1.2);
+}
+
+.logo5 {
+    background-color: #008348;
+    z-index: -1;
+    width: 180px;
+    border-radius: 8px;
+    margin: 2rem;
+    transition: all .3s;
+}
+
+.logo5:hover {
+    transform: scale(1.2);
+}
+.logo6 {
+    background-color: #2D2925;
+    z-index: -1;
+    width: 180px;
+    border-radius: 8px;
+    margin: 2rem ;
+    transition: all .3s;
+}
+
+.logo6:hover {
+    transform: scale(1.2);
+}
+
+
+.textologo {
+    padding: 8%;
+    align-items: center;
+}
+
+.textologo:hover {
+    padding: 8%;
+    align-items: center;
+}
+
+.logosnba {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    transition: transform .3s;
+}
+
+.logosnba:hover {
+    transform: scale(1.2);
+}
+
+.imagen {
+    width: 100%;
+
+}
+
+.jugadores__mvp {
+    display: inline-block;
+    padding: 0.7rem;
+    justify-content: center; 
+}
+
+
+
+.noticia {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.noticia__imagen {
+    height: 70%;
+    width: 50%;
+}
+
+.noticia__derecha {
+    width: 60%;
+    padding: 8px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noticia__izquierda {
+    width: 40%;
+}
+
+.texto__imagen {
+    max-width: 368px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .navbar__link {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+textarea {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+input {
+    background-color: #1D428A;
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+
+.input__nombre {
+    color: #ffffff;
+    border-radius: 16px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding-left: 8px;
+}
+
+.input__nombre1 {
+    color: #ffffff;
+    border-radius: 16px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
