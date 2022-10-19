@@ -18,6 +18,7 @@ footer {
     background-color: #C8102E;
     padding: 100px;
     display: flex;
+    align-items: flex-end;
 
 }
 
