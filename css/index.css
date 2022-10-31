@@ -5,13 +5,12 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
+html {
+    font-size: 130%;
 }
 
-header {
-    background-color: #1D428A;
-    padding: 20px;
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
 footer {
@@ -24,6 +23,11 @@ footer {
 
 .footbar .lista .lista__item {
     display: inline-block;
+}
+
+header {
+    background-color: #1D428A;
+    padding: 20px;
 }
 
 .container {
@@ -52,7 +56,6 @@ a {
 
 .navbar .menu .menu__item:hover {
     background-color: #C8102E;
-
 }
 
 .menu__item {
@@ -64,9 +67,6 @@ a {
     color: rgb(255, 255, 255);
 }   
 
-html {
-    font-size: 130%;
-}
 
 .box {
     background-color: #1D428A;

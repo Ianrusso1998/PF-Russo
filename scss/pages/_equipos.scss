@@ -1,0 +1,108 @@
+.logosnba {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    transition: transform .3s;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+
+    .logo {
+        margin: 8px;
+    }
+
+
+    .logo1 {
+        background-color: #8B2231;
+        z-index: -1;
+        width: 180px;
+        border-radius: 8px;
+        margin: 2rem;
+        transition: all .3s;
+    }
+    
+    .logo1:hover {
+        transform: scale(1.2);
+    }
+    
+    .logo2 {
+        background-color: #5D76A9;
+        z-index: -1;
+        width: 180px;
+        border-radius: 8px;
+        margin: 2rem;
+        transition: all .3s;
+    }
+    
+    .logo2:hover {
+        transform: scale(1.2);
+    }
+    
+    .logo3 {
+        background-color: #542582;
+        z-index: -1;
+        width: 180px;
+        border-radius: 8px;
+        margin: 2rem;
+        transition: all .3s;
+    }
+    
+    .logo3:hover {
+        transform: scale(1.2);
+    }
+    
+    .logo4 {
+        background-color: #3D0079;
+        z-index: -1;
+        width: 180px;
+        border-radius: 8px;
+        margin: 2rem;
+        transition: all .3s;
+    }
+    
+    .logo4:hover {
+        transform: scale(1.2);
+    }
+    
+    .logo5 {
+        background-color: #008348;
+        z-index: -1;
+        width: 180px;
+        border-radius: 8px;
+        margin: 2rem;
+        transition: all .3s;
+    }
+    
+    .logo5:hover {
+        transform: scale(1.2);
+    }
+    .logo6 {
+        background-color: #2D2925;
+        z-index: -1;
+        width: 180px;
+        border-radius: 8px;
+        margin: 2rem ;
+        transition: all .3s;
+    }
+    
+    .logo6:hover {
+        transform: scale(1.2);
+    }
+    
+    
+    .textologo {
+        padding: 8%;
+        align-items: center;
+    }
+    
+    .textologo:hover {
+        padding: 8%;
+        align-items: center;
+    }
+
+}
+
+
