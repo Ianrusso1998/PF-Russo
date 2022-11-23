@@ -22,7 +22,12 @@ main {
         }
     }
 
-    .noticia__izquierda {
-        width: 40%;
+}
+
+.noticia__izquierda {
+    width: 90%;
+    
+    .lista__izquierda {
+        font-size: 30px;
     }
 }

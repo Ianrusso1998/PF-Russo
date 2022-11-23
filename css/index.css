@@ -16,13 +16,16 @@ body {
 footer {
     background-color: #C8102E;
     padding: 100px;
-    display: flex;
+/*     display: flex; */
     align-items: flex-end;
+    text-align: center;
 
 }
 
 .footbar .lista .lista__item {
     display: inline-block;
+    text-align: center;
+    margin: 0px 25px;
 }
 
 header {
@@ -191,7 +194,8 @@ a {
 
 .imagen {
     width: 100%;
-
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .jugadores__mvp {
@@ -214,10 +218,10 @@ main {
    
 }
 
-.noticia__imagen {
+/* .noticia__imagen {
     height: 70%;
     width: 50%;
-}
+} */
 
 .noticia__derecha {
     width: 60%;
@@ -233,6 +237,7 @@ main {
 
 .texto__imagen {
     max-width: 368px;
+    padding: 8px;
 }
 
 @media screen and (max-width: 768px) {
@@ -279,4 +284,8 @@ input {
     height: 40px;
     display: flex;
     justify-content: center;
+}
+
+.izquierda {
+    font-size: 25px;
 }
